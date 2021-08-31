@@ -1,0 +1,91 @@
+
+body {
+    background-image: url("./imagem_login/background.jpeg");
+    background-position: center;
+    font-family: Calluna, Arial, sans-serif;
+}
+
+.columns_1{
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;
+  }
+  .columns_2{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+  }
+
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    clear: both;
+}
+
+.form h1 {
+    display: flex;
+    color:white;
+    justify-content: center;
+    margin-top: 40%;
+    padding-bottom: 30%;
+}
+
+.form label {
+    color:white;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 5%;
+    clear: both;
+}
+
+.form-row input{
+    border-color: rgb(235, 27, 25);
+}
+
+#btn_login { 
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.botaoEnviar{
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color: black;
+    font-size: 15px;
+    border-color: rgb(235, 27, 25);
+}
+
+
+.botaoCadastrar{
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color: black;
+    font-size: 15px;
+    border-color: rgb(235, 27, 25);
+}
+
+#btn_recover { 
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    padding-left: 2%;
+    
+}
+
+.botaoRecuperarSenha {
+    padding: 5px 20px;
+    color: rgb(235, 27, 25);
+    border-color: rgba(255, 0, 0, 0);
+    background-color: #fcc20200;
+    cursor:pointer;
+    
+}
